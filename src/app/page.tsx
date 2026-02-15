@@ -269,7 +269,7 @@ export default function Home() {
           className="text-xs uppercase tracking-widest mb-16 reveal"
           style={{ color: "#6B6B6B", letterSpacing: "0.25em" }}
         >
-          What&apos;s Next
+          On the Horizon
         </p>
 
         <div className="space-y-20">
@@ -295,11 +295,11 @@ export default function Home() {
 
           <div className="reveal reveal-delay-3">
             <p className="font-cursive text-2xl md:text-3xl" style={{ color: "#F5F0EB" }}>
-              Telegram, but autonomous.
+              Your market. Delivered.
             </p>
             <p className="mt-4 text-sm font-light max-w-md mx-auto" style={{ color: "#6B6B6B" }}>
-              An automator that doesn&apos;t wait for commands. It watches, decides, and acts —
-              within the guardrails you set. You review. It runs.
+              Timely news, portfolio movements, and the signals that matter —
+              delivered straight to your inbox. No noise. No searching. Just clarity, when it counts.
             </p>
           </div>
         </div>

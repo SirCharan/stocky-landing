@@ -420,7 +420,7 @@ export default function Home() {
                   <div
                     className="flex items-center gap-3 rounded-2xl px-7 py-4"
                     style={{
-                      background: "rgba(201,169,110,0.08)",
+                      background: "#0D0D0D",
                       border: "1.5px solid #C9A96E",
                       boxShadow: "0 0 32px rgba(201,169,110,0.15), 0 0 60px rgba(201,169,110,0.06)",
                       minWidth: 140,
@@ -492,7 +492,7 @@ export default function Home() {
           <div
             className="flex items-center justify-center rounded-2xl px-6 py-3"
             style={{
-              background: "rgba(201,169,110,0.06)",
+              background: "#0D0D0D",
               border: "1.5px solid #C9A96E",
               boxShadow: "0 0 20px rgba(201,169,110,0.1)",
             }}

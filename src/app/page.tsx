@@ -414,19 +414,27 @@ export default function Home() {
 
                 {/* Central Stocky node */}
                 <div
-                  className="absolute flex flex-col items-center gap-1.5"
+                  className="absolute flex flex-col items-center gap-2"
                   style={{ left: `${cx}%`, top: `${cy}%`, transform: "translate(-50%, -50%)" }}
                 >
                   <div
-                    className="flex items-center justify-center rounded-2xl px-6 py-3.5"
+                    className="flex items-center gap-3 rounded-2xl px-7 py-4"
                     style={{
-                      background: "rgba(201,169,110,0.06)",
+                      background: "rgba(201,169,110,0.08)",
                       border: "1.5px solid #C9A96E",
-                      boxShadow: "0 0 24px rgba(201,169,110,0.12)",
-                      minWidth: 110,
+                      boxShadow: "0 0 32px rgba(201,169,110,0.15), 0 0 60px rgba(201,169,110,0.06)",
+                      minWidth: 140,
                     }}
                   >
-                    <span className="font-cursive text-xl" style={{ color: "#C9A96E" }}>
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src="/logo-mark.png"
+                      alt="Stocky"
+                      width={32}
+                      height={32}
+                      style={{ objectFit: "contain" }}
+                    />
+                    <span className="font-cursive text-2xl" style={{ color: "#C9A96E" }}>
                       Stocky
                     </span>
                   </div>

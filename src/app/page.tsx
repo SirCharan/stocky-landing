@@ -488,7 +488,6 @@ export default function Home() {
             Built for those who move first.
           </p>
           <p className="text-sm mb-8" style={{ color: "#6B6B6B", letterSpacing: "0.15em" }}>
-            By invitation only.
           </p>
           {!submitted ? (
             <form
@@ -536,9 +535,6 @@ export default function Home() {
           <span className="font-cursive text-lg" style={{ color: "#F5F0EB" }}>
             Stocky
           </span>
-          <p className="text-xs" style={{ color: "#4A4A4A", letterSpacing: "0.15em" }}>
-            Performance is the only credential.
-          </p>
         </div>
       </footer>
     </main>

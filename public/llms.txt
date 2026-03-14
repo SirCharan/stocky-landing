@@ -1,0 +1,31 @@
+# Stocky AI
+
+> AI-powered trading assistant for Indian stock markets, built by Charandeep Kapoor.
+
+Stocky AI is a personal AI trading assistant that integrates with Zerodha for real-time stock analysis, portfolio automation, and trade execution on NSE and BSE.
+
+## Key Features
+
+- AI stock analysis (fundamental, technical, news sentiment)
+- Zerodha Kite integration for live trading
+- Real-time market news from 25+ RSS sources with AI summaries
+- Deep Research mode with dual-agent AI system
+- Market scanning (breakouts, 52W high/low, volume pumps)
+- Stock comparison and interactive charting
+- Sector rotation analysis (Relative Rotation Graph)
+- IPO tracking and macro dashboard
+- Portfolio, holdings, and margin overview
+
+## Links
+
+- Landing Page: https://stockyai.xyz
+- Web App: https://llm.stockyai.xyz
+- Terminal: https://terminal.stockyai.xyz
+- Creator: https://charandeepkapoor.com
+
+## Technical Stack
+
+- Backend: FastAPI + Groq LLM (llama-3.3-70b)
+- Frontend: Next.js 16, React 19, TypeScript, Tailwind CSS
+- Trading: Zerodha Kite Connect API
+- Data: yfinance, nsetools, 25+ RSS feeds, NSE/BSE APIs

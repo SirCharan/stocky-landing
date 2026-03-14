@@ -19,7 +19,7 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: "Stocky AI — AI Trading Assistant for Indian Markets",
   description:
-    "AI-powered stock analysis and trading assistant for Zerodha. Real-time market intelligence, portfolio automation, and trade execution for NSE & BSE. 150%+ returns since June 2025.",
+    "AI-powered stock analysis and trading assistant for Zerodha. Real-time market intelligence, portfolio automation, and trade execution for NSE & BSE.",
   metadataBase: new URL("https://stockyai.xyz"),
   alternates: {
     canonical: "https://stockyai.xyz",
